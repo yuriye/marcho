@@ -20,9 +20,13 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-pngquant": "^9.0.2",
+    "ion-rangeslider": "^2.3.1",
     "jquery": "^3.6.0",
+    "jquery-form-styler": "^2.0.2",
     "mozjpeg": "^7.0.0",
     "pngquant-bin": "^6.0.0",
+    "rateyo": "^2.3.2",
     "slick-carousel": "^1.8.1"
-  }
+  },
+  "dependencies": {}
 }
