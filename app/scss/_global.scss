@@ -51,6 +51,7 @@ a {
   justify-content: center;
   padding-left: 25px;
   position: relative;
+  flex-wrap: wrap;
 
   &::before {
     content: "";
@@ -108,9 +109,9 @@ a {
   &__item {
     padding: 0 15px;
   }
-  
+
   &__link--active {
-    color: $accent
+    color: $accent;
   }
 
   &__arrows {
@@ -139,5 +140,19 @@ a {
       background-image: url("../images/icons/angle_right.svg");
       right: 0;
     }
+  }
+}
+
+@media (max-width: 620px) {
+  .title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
